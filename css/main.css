@@ -1,4 +1,4 @@
-.block-1{height:620px;color:#fff;background:url(../img/bg-1.jpg) 50% 0 no-repeat;}
+.block-1{height:620px;color:#fff;background:url(../img/bg-1-es.jpg) 50% 0 no-repeat;}
 .block-1 .wrap{padding:20px 10px 0;}
 @media screen and (max-width:400px){.block-option .itemBlock .left img{max-width:300px;}
 }
@@ -55,10 +55,10 @@ ul.deliv li:last-child p{padding-top:21px;}
 .block-6 .wrap{padding:40px 0;}
 .block-6 .rev-slider{position:relative;padding:10px 0 0;color:black;}
 .block-6 .rev-item{float:left;width:300px;margin:0 10px;text-align:center;border-radius:8px;overflow:hidden;}
-.block-6 .rev-item>img{display:block;width:200px;height:200px;margin:0 auto 20px;border:5px solid #eee;border-radius:50%;}
+.block-6 .rev-item>img{display:block;width:200px;height:200px;margin:0 auto 20px;border:5px solid #eee;border-radius:50%;object-fit: cover;}
 .block-6 .rev-item>h4{margin:0 0 10px;font-size:20px;}
 .block-6 .rev-item>p{padding:0 20px 30px;text-align:justify;}
-.block-8{height:620px;background:url(../img/bg-1.jpg) 50% 0 no-repeat;}
+.block-8{height:620px;background:url(../img/bg-1-es.jpg) 50% 0 no-repeat;}
 .block-8 .wrap{padding:30px 10px 0;}
 .block-8 .title{margin:0 370px 0 0;text-align:left;letter-spacing:1.4px;color:#ffff00;}
 .block-8 .container{padding:0 370px 0 0;}
@@ -143,6 +143,23 @@ ul.deliv li:last-child p{padding-top:21px;}
 }
 #block66 .slick-prev:before, #block66 .slick-next:before{color:black!important;}
 .gal{max-width: 700px;max-height:700px;}
+
+.footer .container .footer__wrapper .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footer-content__text,
+.footer-content__text > a {
+  color: #090909;
+}
+.footer-content__text > a:hover {
+  color: #00b6ce;
+}
+
+
 @media screen and (min-width: 460px){.slider_1{max-width: 440px; margin-left: 30%;}}
 @media screen and (max-width: 970px){.slider_1{max-width: 440px; margin-left: 15%;}}
 @media screen and (max-width: 460px){.slider_1{max-width: 440px; margin-left: 0%;}}
